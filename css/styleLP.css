@@ -1,0 +1,47 @@
+#navbar {
+    background-color: #55e9bc !important;
+}
+
+.brand-logo {
+    color: black !important;
+}
+
+a {
+    color: black !important;
+}
+
+#button-add {
+    background-color: #11d3bc !important;
+}
+
+i {
+    color: black !important;
+}
+
+body {
+    background-color: #fffeda;
+    font-size: 2rem;
+    color: #304449;
+}
+
+#sheet {
+    border-style: solid;
+    border-color: rgba(255, 0, 0, 0.8) !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: rgba(255, 0, 0, 0.05)
+}
+
+i.icons-size {
+    font-size: 3rem;
+}
+
+
+/* Colores
+
+Verde Oscuro: 537780
+Verde calipso: 11d3bc
+Verde Agua: 55e9bc
+Amarillo: fffcca
+
+*/
