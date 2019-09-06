@@ -42,7 +42,7 @@
         <nav class="navbar navbar-light bg-light">
             <form class="form-inline">
                 <button class="btn btn-outline-success" type="button" id="navButton">Horario</button>
-                <button class="btn btn-outline-success" type="button" id="navButton">Favoritos</button>
+                <button class="btn btn-outline-success" type="button" id="navButton">Resumen</button>
                 <button class="btn btn-outline-success" type="button" id="navButton">Amigos</button>
             </form>
         </nav>
@@ -52,6 +52,9 @@
     <div class="container-fluid bg-transparent"> <br></div>
 
     <!--Time Schedule-->
+    <div class="container">
+        Horario
+    </div>
     <div class="container" id="sheet">
         <table class="table table-striped">
             <thead>
@@ -183,17 +186,34 @@
         </table>
     </div>
 
-    <!--Friends-->
-    <!--Favourite Activities-->
+    <!--spacing-->
+    <div class="container-fluid bg-transparent"> <br></div>
 
-    <!--Add Activity Button-->
-    <div class="container-fluid fixed-bottom pb-2">
-        <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
-                class="material-icons">add</i></a>
+    <!--Summary-->
+    <div class="container">
+        Resumen
+    </div>
+    <div class="container" id="sheet">
+        <div class="row">
+            <div class="col" id="activity">Hola</div>
+            <div class="col" id="activity">Hola</div>
+            <div class="col" id="activity">Hola</div>
+        </div>
+        <div class="row">
+            <div class="col" id="activity">Hola</div>
+            <div class="col" id="activity">Hola</div>
+            <div class="col" id="activity">Hola</div>
+        </div>
     </div>
 
-    <!--On Screen Clock-->
+    <!--Favourite Activities-->
+
+    <!--Fixed to Bottom-->
     <div class="container-fluid fixed-bottom pb-2">
+        <!--Add Activity Button-->
+        <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
+                class="material-icons">add</i></a>
+        <!--On Screen Clock-->
         <a class="btn-floating btn-large waves-effect waves-light float-right" id="button-add"><i
                 class="material-icons">add</i></a>
     </div>

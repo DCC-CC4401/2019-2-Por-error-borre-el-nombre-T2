@@ -33,6 +33,15 @@ body {
     padding: 20px;
 }
 
+#activity{
+    border-style: solid;
+    border-color: #537780 !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: #5377807e;
+    margin: 10px;
+}
+
 #tableBody {
     font-size: 13px
 }
