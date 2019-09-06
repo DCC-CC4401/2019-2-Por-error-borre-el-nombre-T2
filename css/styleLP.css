@@ -29,19 +29,24 @@ body {
     border-color: #11d3bc !important;
     border-radius: 12px;
     border-width: 5px;
-    background-color: #11d3bc41
+    background-color: #11d3bc41;
+    padding: 20px;
 }
 
-#tableBody{
-    font-size:13px
+#tableBody {
+    font-size: 13px
 }
 
-#deporte{
+#deporte {
     border-style: solid;
     border-color: #11d3bc !important;
     border-radius: 12px;
     border-width: 5px;
     background-color: #11d3bc41
+}
+
+#navButton {
+    margin: 5px;
 }
 
 i.icons-size {
