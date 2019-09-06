@@ -36,6 +36,14 @@ body {
     font-size:13px
 }
 
+#deporte{
+    border-style: solid;
+    border-color: #11d3bc !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: #11d3bc41
+}
+
 i.icons-size {
     font-size: 3rem;
 }
