@@ -49,6 +49,11 @@ body {
     margin: 5px;
 }
 
+#firstRow{
+    background-color: rgb(12, 160, 116);
+    
+}
+
 i.icons-size {
     font-size: 3rem;
 }
