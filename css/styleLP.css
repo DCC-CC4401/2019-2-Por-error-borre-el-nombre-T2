@@ -1,5 +1,5 @@
 #navbar {
-    background-color: #55e9bc !important;
+    background-color: rgb(85, 233, 188) !important;
 }
 
 .brand-logo {
@@ -11,11 +11,11 @@ a {
 }
 
 #button-add {
-    background-color: #11d3bc !important;
+    background-color: rgb(17, 211, 188) !important;
 }
 
 #onScreen-clock {
-    background-color: #11d3bc !important;
+    background-color: rgb(17, 211, 188) !important;
     width: 11%;
 }
 
@@ -24,26 +24,26 @@ i {
 }
 
 body {
-    background-color: #fffeda;
+    background-color: rgb(255, 254, 218);
     font-size: 2rem;
-    color: #304449;
+    color: rgb(48, 68, 73);
 }
 
-#sheet {
+.LPsection {
     border-style: solid;
-    border-color: #11d3bc !important;
+    border-color: rgb(25, 207, 176) !important;
     border-radius: 12px;
     border-width: 5px;
-    background-color: #11d3bc41;
+    background-color: rgba(17, 211, 188, 0.25) !important;
     padding: 20px;
 }
 
-#activity {
+.activity {
     border-style: solid;
-    border-color: #537780 !important;
+    border-color: rgb(83, 119, 128) !important;
     border-radius: 12px;
     border-width: 5px;
-    background-color: #5377807e;
+    background-color: rgba(83, 119, 128, 0.49) !important;
     margin: 10px;
 }
 
@@ -53,10 +53,10 @@ body {
 
 .deporte {
     border-style: solid;
-    border-color: #11d3bc !important;
+    border-color: rgb(25, 207, 176) !important;
     border-radius: 12px;
     border-width: 5px;
-    background-color: #11d3bc41
+    background-color: rgba(17, 211, 188, 0.25) !important;
 }
 
 .navButton {
@@ -64,7 +64,7 @@ body {
 }
 
 #firstRow {
-    background-color: rgb(12, 160, 116);
+    background-color: rgb(12, 160, 116) !important;
 
 }
 
