@@ -14,7 +14,7 @@ a {
     background-color: #11d3bc !important;
 }
 
-#onScreen-clock{
+#onScreen-clock {
     background-color: #11d3bc !important;
     width: 11%;
 }
@@ -38,7 +38,7 @@ body {
     padding: 20px;
 }
 
-#activity{
+#activity {
     border-style: solid;
     border-color: #537780 !important;
     border-radius: 12px;
@@ -51,7 +51,7 @@ body {
     font-size: 13px
 }
 
-#deporte {
+.deporte {
     border-style: solid;
     border-color: #11d3bc !important;
     border-radius: 12px;
@@ -59,13 +59,13 @@ body {
     background-color: #11d3bc41
 }
 
-#navButton {
+.navButton {
     margin: 5px;
 }
 
-#firstRow{
+#firstRow {
     background-color: rgb(12, 160, 116);
-    
+
 }
 
 i.icons-size {
