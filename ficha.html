@@ -9,35 +9,78 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap, Materialize CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="css/materialize.min.css">
-
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Titulo</title>
+    <title>Ficha Actividad</title>
 
 </head>
 
 
 <body>
-    <nav>
-        <div class="nav-wrapper" id="navbar">
-            <a href="#!" class="brand-logo px-5"><i class="material-icons">cloud</i>Logo</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#"><i class="material-icons left">search</i>Buscador</a></li>
-                <li><a href="#"><i class="material-icons right">account_circle</i>Mi cuenta</a></li>
-            </ul>
+    <header>
+        <nav>
+            <div class="nav-wrapper" id="navbar">
+                <a href="#!" class="brand-logo px-5"><i class="material-icons">cloud</i>Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons left">search</i>Buscador</a></li>
+                    <li><a href="#"><i class="material-icons right">account_circle</i>Mi cuenta</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container-fluid bg-transparent"> <br></div>
+
+    <div class="container" id="sheet">
+
+        <div class="row">
+            <div class="col-10">
+                <h2>Nombre de actividad</h2>
+            </div>
+            <div class="col-2 right pt-4">
+                <i class="material-icons medium right icons-size">mode_edit</i></a>
+                <i class="material-icons medium right icons-size">star</i></a></div>
         </div>
-    </nav>
 
-    <a class="btn-floating btn-large waves-effect waves-light" id="button-add"><i class="material-icons">add</i></a>
+        <div class="row pl-3" id="category">
+            Lorea El Ipsum
+        </div>
+
+        <div class="row pl-3" id="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, mollitia odio quae et ducimus incidunt
+            reprehenderit at officia dicta! Aperiam ex accusamus qui pariatur, alias error dignissimos. Obcaecati, minus
+            aperiam!
+            </p> 
+        </div>
+
+        <div class="row" id="time">
+            <div class="col-4 left" id="date">
+                Fecha: 01/01/2000
+            </div>
+            <div class="col-4 center" id="init-time">
+                Hora inicio: 00:00
+            </div>
+            <div class="col-4 text-right" id="duration">
+                Duración: 00:00
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="container-fluid fixed-bottom pb-2">
+        <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
+                class="material-icons">add</i></a>
+    </div>
 
 
 
-    <!-- Optional JavaScript -->
+
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

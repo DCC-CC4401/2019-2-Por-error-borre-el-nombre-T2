@@ -1,0 +1,83 @@
+#navbar {
+    background-color: #55e9bc !important;
+}
+
+.brand-logo {
+    color: black !important;
+}
+
+a {
+    color: black !important;
+}
+
+#button-add {
+    background-color: #11d3bc !important;
+}
+
+#onScreen-clock{
+    background-color: #11d3bc !important;
+    width: 11%;
+}
+
+i {
+    color: black !important;
+}
+
+body {
+    background-color: #fffeda;
+    font-size: 2rem;
+    color: #304449;
+}
+
+#sheet {
+    border-style: solid;
+    border-color: #11d3bc !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: #11d3bc41;
+    padding: 20px;
+}
+
+#activity{
+    border-style: solid;
+    border-color: #537780 !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: #5377807e;
+    margin: 10px;
+}
+
+#tableBody {
+    font-size: 13px
+}
+
+#deporte {
+    border-style: solid;
+    border-color: #11d3bc !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: #11d3bc41
+}
+
+#navButton {
+    margin: 5px;
+}
+
+#firstRow{
+    background-color: rgb(12, 160, 116);
+    
+}
+
+i.icons-size {
+    font-size: 3rem;
+}
+
+
+/* Colores
+
+Verde Oscuro: 537780
+Verde calipso: 11d3bc
+Verde Agua: 55e9bc
+Amarillo: fffcca
+
+*/
