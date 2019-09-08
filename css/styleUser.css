@@ -37,7 +37,37 @@ i.icons-size {
     font-size: 3rem;
 }
 
+img.user-pic{
+    width: 150px !important;
+} 
 
+.navItem {
+    background-color: rgb(85, 233, 188) !important;
+}
+
+img.mini-user-pic{
+    width: 40px;
+}
+
+.btn-accept{
+    border: 2px solid green !important;
+    background-color: whitesmoke;
+    color: green;
+}
+
+.btn-accept:hover{
+    background-color: rgb(100, 190, 100);
+}
+
+.btn-denied{
+    border: 2px solid red;
+    background-color: whitesmoke;
+    color: red;
+}
+
+.btn-denied:hover{
+    background-color: rgb(187, 100, 100);
+}
 /* Colores
 
 Verde Oscuro: 537780

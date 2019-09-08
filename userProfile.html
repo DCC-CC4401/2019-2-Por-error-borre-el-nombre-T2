@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Bootstrap, Materialize CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styleUser.css">
+
+    <title>Perfil</title>
+
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper" id="navbar">
+                <a href="#" class="brand-logo px-5"><i class="material-icons">cloud</i>Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons left">search</i>Buscador</a></li>
+                    <li><a href="#"><i class="material-icons right">account_circle</i>Mi cuenta</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="container-fluid bg-transparent"><br></div>
+
+    <div class="container" id="userProfile">
+        <div class="row m-y-2">
+            <div class="col-lg-4 pull-lg-8 text-xs-center">
+                <form class="md-form">
+                    <div class="file-field">
+                        <div class="mb-4">
+                            <img src="images/user.png" class="rounded-circle z-depth-1-half user-pic center-block"
+                                alt="example placeholder avatar">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <div class="btn botones btn-rounded float-left">
+                                <span>Cambiar foto</span>
+                                <input type="file">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-8 push-lg-4">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item navItem mx-3">
+                        <a href="" data-target="#profile" data-toggle="tab" class="nav-link active">Perfil</a>
+                    </li>
+                    <li class="nav-item navItem mx-3">
+                        <a href="" data-target="#friends" data-toggle="tab" class="nav-link">Amigos</a>
+                    </li>
+                    <li class="nav-item navItem mx-3">
+                        <a href="" data-target="#edit" data-toggle="tab" class="nav-link">Editar</a>
+                    </li>
+                </ul>
+            
+                <!-- <nav class="navbar nav-tabs navbar-light bg-light">
+                    <form class="form-inline">
+                        <button class="btn btn-outline-success nav-item ml-2 mr-3" href="" data-target="#profile" data-toggle="tab" class="nav-link active type="button">Perfil</button>
+                        <button class="btn btn-outline-success nav-item mx-3" data-target="#messages" type="button">Resumen</button>
+                        <button class="btn btn-outline-success nav-item mx-3" data-target="#edit" type="button">Amigos</button>
+                    </form>
+                </nav> -->
+                <div class="tab-content p-b-3">
+                    <div class="tab-pane active" id="profile">
+                        <h4 class="m-y-2">Sergio Leiva</h4>
+                        <h5>checho@mail.com</h5>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="m-t-2"><span class="fa fa-clock-o ion-clock pull-xs-right"></span> Actividad Reciente</h4>
+                                <table class="table table-hover table-striped">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <strong>Abby</strong> joined ACME Project Team in
+                                                <strong>`Collaboration`</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Gary</strong> deleted My Board1 in
+                                                <strong>`Discussions`</strong>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Kensington</strong> deleted MyBoard3 in
+                                                <strong>`Discussions`</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>John</strong> deleted My Board1 in
+                                                <strong>`Discussions`</strong>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Skell</strong> deleted his post Look at Why this is.. in
+                                                <strong>`Discussions`</strong>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <div class="tab-pane" id="friends">
+                        <h4 class="m-y-2">Notificaciones</h4>
+                        <div class="alert alert-info alert-dismissable">
+                            <a class="panel-close close" data-dismiss="alert">×</a> 
+                            <img src="images/user.png" alt="" class="mini-user-pic rounded-circle z-depth-1-half">
+                            Tienes una solicitud de amistad de <b>Daniela Chacón</b>
+                            <button type="button" class="btn btn-success btn-lg btn-accept">
+                                <a href="#"><i class="material-icons left">done</i>Aceptar</a>
+                            </button>
+                            <button type="button" class="btn btn-danger btn-lg btn-denied">
+                                <a href="#"><i class="material-icons left">close</i>Rechazar</a>
+                            </button>
+                        </div>
+                        <h4 class="m-y-2">Solicitudes de amistad</h4>
+                        <h4 class="m-y-2">Listado de amigos</h4>
+                        <table class="table table-hover table-striped">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="pull-xs-right font-weight-bold">3 hrs ago</span> Here is your a
+                                        link to the latest summary report from the..
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="pull-xs-right font-weight-bold">Yesterday</span> There has been a
+                                        request on your account since that was..
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="pull-xs-right font-weight-bold">9/10</span> Porttitor vitae
+                                        ultrices quis, dapibus id dolor. Morbi venenatis lacinia rhoncus.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="pull-xs-right font-weight-bold">9/4</span> Vestibulum tincidunt
+                                        ullamcorper eros eget luctus.
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane" id="edit">
+                        <h4 class="m-y-2">Edit Profile</h4>
+                        <form role="form">
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">First name</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="Jane">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Last name</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="Bishop">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Email</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="email" value="email@gmail.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Company</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Website</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="url" value="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Address</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="" placeholder="Street">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-6">
+                                    <input class="form-control" type="text" value="" placeholder="City">
+                                </div>
+                                <div class="col-lg-3">
+                                    <input class="form-control" type="text" value="" placeholder="State">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Time Zone</label>
+                                <div class="col-lg-9">
+                                    <select id="user_time_zone" class="form-control" size="0">
+                                        <option value="Hawaii">(GMT-10:00) Hawaii</option>
+                                        <option value="Alaska">(GMT-09:00) Alaska</option>
+                                        <option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US
+                                            &amp; Canada)</option>
+                                        <option value="Arizona">(GMT-07:00) Arizona</option>
+                                        <option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US
+                                            &amp; Canada)</option>
+                                        <option value="Central Time (US &amp; Canada)" selected="selected">(GMT-06:00)
+                                            Central Time (US &amp; Canada)</option>
+                                        <option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US
+                                            &amp; Canada)</option>
+                                        <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Username</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="text" value="janeuser">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Password</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password" value="11111122333">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Confirm password</label>
+                                <div class="col-lg-9">
+                                    <input class="form-control" type="password" value="11111122333">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-9">
+                                    <input type="reset" class="btn btn-secondary" value="Cancel">
+                                    <input type="button" class="btn btn-primary" value="Save Changes">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Fixed to Bottom-->
+    <div class="container-fluid fixed-bottom pb-2">
+        <!--Add Activity Button-->
+        <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
+                class="material-icons">add</i></a>
+        <!--On Screen Clock-->
+        <a class="container float-right" id="onScreen-clock">00:13:21</a>
+        <!--Faltan botones de inicio, pausa y termino-->
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
+</body>
+
+</html>
