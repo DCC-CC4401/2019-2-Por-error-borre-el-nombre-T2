@@ -11,6 +11,11 @@ a{
     background-color: #11d3bc !important;
 }
 
+#onScreen-clock {
+    background-color: rgb(17, 211, 188) !important;
+    width: 11%;
+}
+
 i {
     color: black !important;
 }
