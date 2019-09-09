@@ -41,9 +41,9 @@
 <div class="container">
     <nav class="navbar navbar-light bg-light">
         <form class="form-inline">
-            <button class="btn btn-outline-success navButton" type="button">Horario</button>
-            <button class="btn btn-outline-success navButton" type="button">Resumen</button>
-            <button class="btn btn-outline-success navButton" type="button">Amigos</button>
+            <button class="btn btn-outline-success navButton" type="button" onclick="window.location.href='#schedule'">Actividades de la Semana</button>
+            <button class="btn btn-outline-success navButton" type="button" onclick="window.location.href='#summary'">Resumen</button>
+            <button class="btn btn-outline-success navButton" type="button" >Amigos</button>
         </form>
     </nav>
 </div>
@@ -52,14 +52,14 @@
 <div class="container-fluid bg-transparent"><br></div>
 
 <!--Time Schedule-->
-<div class="container">
-    <h4>Horario</h4>
+<div class="container" id="schedule">
+    <h4>Actividad de la Semana</h4>
 </div>
 <!--Faltan requisitos 23 y 24-->
 <!--Faltan otros categorías con colores (requisito 21)-->
 <div class="container LPsection">
     <!--Time Schedule Navbar-->
-    <div class="container center">
+    <div class="container right">
 
         <i class="material-icons medium icons-size">chevron_left</i>
         <i class="material-icons medium icons-size">chevron_right</i>
@@ -106,14 +106,14 @@
             <td></td>
             <td></td>
             <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
+                <div class="container vida">
+                    Dormir
                 </div>
             </td>
             <td></td>
             <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
+                <div class="container vida">
+                    Dormir
                 </div>
             </td>
             <td></td>
@@ -122,8 +122,8 @@
             <th scope="row">6:00-9:00</th>
             <td></td>
             <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
+                <div class="container ocio">
+                    Jugar LoL
                 </div>
             </td>
             <td></td>
@@ -210,7 +210,7 @@
 <div class="container-fluid bg-transparent"><br></div>
 
 <!--Summary-->
-<div class="container">
+<div class="container" id="summary">
     <h4>Resumen</h4>
 </div>
 <div class="container LPsection">
@@ -226,6 +226,7 @@
         <div class="col activity">Hola</div>
     </div>
 </div>
+<br>
 
 
 <!--Fixed to Bottom-->

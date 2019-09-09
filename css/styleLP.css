@@ -55,7 +55,26 @@ body {
     border-color: rgb(25, 207, 176) !important;
     border-radius: 12px;
     border-width: 5px;
+    width: 6rem;
     background-color: rgba(17, 211, 188, 0.25) !important;
+}
+
+.ocio {
+    border-style: solid;
+    border-color: rgba(255, 0, 0, 0.9) !important;
+    border-radius: 12px;
+    border-width: 5px;
+    width: 6rem;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+.vida {
+    border-style: solid;
+    border-color: rgb(0, 0, 255) !important;
+    border-radius: 12px;
+    border-width: 5px;
+    width: 6rem;
+    background-color: rgba(0, 0, 255, 0.25) !important;
 }
 
 .navButton {
