@@ -78,6 +78,19 @@ img.mini-user-pic{
     width: 75px;
     height: 75px;
 }
+
+.image-card{
+    height: 120px;
+}
+
+.tab-active{
+    border-style: solid;
+    border-color: rgb(25, 207, 176) !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: rgba(17, 211, 188, 0.25) !important;
+    padding: 20px;
+}
 /* Colores
 
 Verde Oscuro: 537780
