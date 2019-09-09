@@ -45,7 +45,14 @@ i.icons-size {
     border-color: rgba(255, 0, 0, 0.8) !important;
     border-radius: 12px;
     border-width: 5px;
-    background-color: rgba(255,0,0,0.05)
+    background-color: rgba(255,0,0,0.05);
+}
+i.icons-size:hover{
+    color:red;
+}
+
+.photo-description{
+    max-height: 300px;
 }
 
 
