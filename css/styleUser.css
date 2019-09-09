@@ -16,8 +16,7 @@ a {
 
 #onScreen-clock {
     background-color: rgb(17, 211, 188) !important;
-    width: 11%;
-    font-size: 36px;
+    width: 10%;
 }
 
 #user-image{
@@ -67,6 +66,17 @@ img.mini-user-pic{
 
 .btn-denied:hover{
     background-color: rgb(187, 100, 100);
+}
+
+.friend-list{
+    padding: 20px 0;
+    border-top: 1px solid #f1f2f2;
+    border-bottom: 1px solid #f1f2f2;
+}
+
+.friend-photo{
+    width: 75px;
+    height: 75px;
 }
 /* Colores
 

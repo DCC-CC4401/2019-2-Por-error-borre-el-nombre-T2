@@ -16,7 +16,7 @@ a {
 
 #onScreen-clock {
     background-color: rgb(17, 211, 188) !important;
-    width: 11%;
+    width: 10%;
 }
 
 i {
@@ -25,7 +25,6 @@ i {
 
 body {
     background-color: rgb(255, 254, 218);
-    
     color: rgb(48, 68, 73);
 }
 
