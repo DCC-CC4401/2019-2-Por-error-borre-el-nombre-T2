@@ -1,27 +1,34 @@
-#navbar{
-    background-color: #55e9bc !important;
+#navbar {
+    background-color: rgb(85, 233, 188) !important;
 }
-.brand-logo{
+
+.brand-logo {
     color: black !important;
 }
-a{
+
+a {
     color: black !important;
 }
-#button-add{
-    background-color: #11d3bc !important;
+
+#button-add {
+    background-color: rgb(17, 211, 188) !important;
+}
+
+#onScreen-clock {
+    background-color: rgb(17, 211, 188) !important;
+    width: 11%;
 }
 
 i {
     color: black !important;
 }
 
-body{
-    background-color: #fffeda;
-    font-size: 2rem;
-    color: #304449;
+body {
+    background-color: rgb(255, 254, 218);
+    color: rgb(48, 68, 73);
 }
 
-#sheet{
+#sheet {
     border-style: solid;
     border-color: rgba(255, 0, 0, 0.8) !important;
     border-radius: 12px;
@@ -29,8 +36,16 @@ body{
     background-color: rgba(255, 0, 0, 0.05)
 }
 
-i.icons-size{
+i.icons-size {
     font-size: 3rem;
+}
+
+i.icons-size:hover{
+    color:red;
+}
+
+.photo-description{
+    max-height: 300px;
 }
 
 

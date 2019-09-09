@@ -12,14 +12,15 @@
     <!-- Bootstrap, Materialize CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleUser.css">
 
-    <title>Ficha Actividad</title>
+    <title>Usuario</title>
 
 </head>
 
 
 <body>
+<!--Header-->
 <header>
     <nav>
         <div class="nav-wrapper" id="navbar">
@@ -30,53 +31,14 @@
             </ul>
         </div>
     </nav>
-
 </header>
 
+<!--spacing-->
 <div class="container-fluid bg-transparent"><br></div>
 
-<div class="container" id="sheet">
-
-    <div class="row">
-        <div class="col-10">
-            <h4><b>Andar en Bicicleta</b> </h4>
-        </div>
-        <div class="col-2 right pt-4">
-            <i class="material-icons medium right icons-size">mode_edit</i>
-            <i class="material-icons medium right icons-size">star</i></div>
-    </div>
-
-    <div class="row pl-3" id="category">
-        <b><h5>Deporte</h5></b> 
-    </div>
-
-    <div class="row pl-3" id="description">
-        <div class="col-5 p-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, mollitia odio quae et ducimus incidunt
-            reprehenderit at officia dicta! Aperiam ex accusamus qui pariatur, alias error dignissimos. Obcaecati, minus
-            aperiam!
-            
-        </div>
-        <div class="col-7">
-                <img class="rounded float-right img-fluid photo-description"
-                src="https://www.saranaclake.com/f/styles/nodelistingimages/public/header/saranac-lake-biking-routes-trails_0.jpg?itok=5Eus98jA"
-                alt="Card image cap">
-        </div>
-    </div>
-
-    <div class="row" id="time">
-        <div class="col-4 left" id="date">
-            <h6>Fecha: 01/01/2000</h6> 
-        </div>
-        <div class="col-4 center" id="init-time">
-            <h6>Hora inicio: 00:00</h6> 
-        </div>
-        <div class="col-4 text-right" id="duration">
-            <h6>Duración: 00:00</h6>
-        </div>
-    </div>
-
-
+<!--User-->
+<div class="container">
+    <img src="user.png" alt="Responsive image" class="img-thumbnail rounded float-left" id="user-image">
 </div>
 
 <!--Fixed to Bottom-->
@@ -85,9 +47,10 @@
     <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
             class="material-icons">add</i></a>
     <!--On Screen Clock-->
-    <a class="float-right rounded-pill pl-3" id="onScreen-clock"><h5>00:13:21</h5></a>
+    <a class="container float-right" id="onScreen-clock">00:13:21</a>
     <!--Faltan botones de inicio, pausa y termino-->
 </div>
+
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -101,4 +64,3 @@
 <script src="js/materialize.min.js"></script>
 </body>
 
-</html>

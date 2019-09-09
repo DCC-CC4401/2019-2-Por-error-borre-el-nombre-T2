@@ -1,0 +1,101 @@
+#navbar {
+    background-color: rgb(85, 233, 188) !important;
+}
+
+.brand-logo {
+    color: black !important;
+}
+
+a {
+    color: black !important;
+}
+
+#button-add {
+    background-color: rgb(17, 211, 188) !important;
+}
+
+#onScreen-clock {
+    background-color: rgb(17, 211, 188) !important;
+    width: 10%;
+}
+
+#user-image{
+    width: 11%;
+}
+
+i {
+    color: black !important;
+}
+
+body {
+    background-color: rgb(255, 254, 218);
+    color: rgb(48, 68, 73);
+}
+
+i.icons-size {
+    font-size: 3rem;
+}
+
+img.user-pic{
+    width: 150px !important;
+} 
+
+.navItem {
+    background-color: rgb(85, 233, 188) !important;
+}
+
+img.mini-user-pic{
+    width: 40px;
+}
+
+.btn-accept{
+    border: 2px solid green !important;
+    background-color: whitesmoke;
+    color: green;
+}
+
+.btn-accept:hover{
+    background-color: rgb(100, 190, 100);
+}
+
+.btn-denied{
+    border: 2px solid red;
+    background-color: whitesmoke;
+    color: red;
+}
+
+.btn-denied:hover{
+    background-color: rgb(187, 100, 100);
+}
+
+.friend-list{
+    padding: 20px 0;
+    border-top: 1px solid #f1f2f2;
+    border-bottom: 1px solid #f1f2f2;
+}
+
+.friend-photo{
+    width: 75px;
+    height: 75px;
+}
+
+.image-card{
+    height: 120px;
+}
+
+.tab-active{
+    border-style: solid;
+    border-color: rgb(25, 207, 176) !important;
+    border-radius: 12px;
+    border-width: 5px;
+    background-color: rgba(17, 211, 188, 0.25) !important;
+    padding: 20px;
+}
+/* Colores
+
+Verde Oscuro: 537780
+Verde calipso: 11d3bc
+Verde Agua: 55e9bc
+Amarillo: fffcca
+
+*/
