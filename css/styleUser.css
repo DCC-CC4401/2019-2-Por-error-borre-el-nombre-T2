@@ -17,6 +17,7 @@ a {
 #onScreen-clock {
     background-color: rgb(17, 211, 188) !important;
     width: 11%;
+    font-size: 36px;
 }
 
 #user-image{
@@ -29,7 +30,6 @@ i {
 
 body {
     background-color: rgb(255, 254, 218);
-    font-size: 2rem;
     color: rgb(48, 68, 73);
 }
 
