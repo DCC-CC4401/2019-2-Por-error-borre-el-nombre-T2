@@ -8,6 +8,6 @@
 - Jocelyn Simmonds
 - Sergio Leiva
 - Daniela Chacón
-- Ma. José Berger
+- Ma. José Trujillo
 
 
