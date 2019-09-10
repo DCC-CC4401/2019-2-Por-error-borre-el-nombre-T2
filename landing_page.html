@@ -65,190 +65,312 @@
         <div class="dropdown right">
             <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="true">
-                Categorías
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <li><a href="#">Deporte</a></li>
-                <li><a href="#">Estudio</a></li>
-                <li><a href="#">Ocio</a></li>
-            </ul>
+                    Categorías
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Deporte</a></li>
+                    <li><a href="#">Estudio</a></li>
+                    <li><a href="#">Ocio</a></li>
+                </ul>
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr id="firstRow">
+                    <th scope="col">hr</th>
+                    <th scope="col">Lu</th>
+                    <th scope="col">Ma</th>
+                    <th scope="col">Mi</th>
+                    <th scope="col">Ju</th>
+                    <th scope="col">Vi</th>
+                    <th scope="col">Sa</th>
+                    <th scope="col">Do</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <tr>
+                    <th scope="row">00:00-03:00</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">03:00-06:00</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="container vida">
+                            Dormir
+                        </div>
+                    </td>
+                    <td></td>
+                    <td>
+                        <div class="container vida">
+                            Dormir
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">06:00-09:00</th>
+                    <td></td>
+                    <td>
+                        <div class="container ocio">
+                            Jugar LoL
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">09:00-12:00</th>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="container deporte">
+                            Andar en Bicicleta
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">12:00-15:00</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="container deporte">
+                            Andar en Bicicleta
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">15:00-18:00</th>
+                    <td>
+                        <div class="container deporte">
+                            Andar en Bicicleta
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">18:00-21:00</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="container deporte">
+                            Andar en Bicicleta
+                        </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">21:00-00:00</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <div class="container deporte">
+                            Andar en Bicicleta
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--spacing-->
+    <div class="container-fluid bg-transparent"><br></div>
+
+    <!--Summary-->
+    <div class="container" id="summary">
+        <h4>Resumen Semanal</h4>
+    </div>
+    <div class="container LPsection">
+        <div class="row">
+            <!--Agregar resumenes de la persona y amigos-->
+            <div class="container activity1">
+                <h6 style="text-align: center">Dormir</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+            <div class="container activity2">
+                <h6 style="text-align: center">Deporte</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+            <div class="container activity3">
+                <h6 style="text-align: center">Jugar</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container activity4">
+                <h6 style="text-align: center">Otros</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+            <div class="container activity5">
+                <h6 style="text-align: center">Viajar</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+            <div class="container activity6">
+                <h6 style="text-align: center">Socializar</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container activity7">
+                <h6 style="text-align: center">Ir a clase</h6>
+                <div class="row">
+                    <div class="col-9">
+                        Tiempo: <br>
+                        Tiempo promedio amigos: <br>
+                        Desviación estándar amigos:
+                    </div>
+                    <div class="col-3">
+                        6 hrs <br>
+                        5 hrs <br>
+                        1.2 hrs
+                    </div>
+                </div>
+            </div>
+            <div class="container activity8">
+                    <h6 style="text-align: center">Estudiar</h6>
+                    <div class="row">
+                        <div class="col-9">
+                            Tiempo: <br>
+                            Tiempo promedio amigos: <br>
+                            Desviación estándar amigos:
+                        </div>
+                        <div class="col-3">
+                            6 hrs <br>
+                            5 hrs <br>
+                            1.2 hrs
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
-    <table class="table table-striped">
-        <thead>
-        <tr id="firstRow">
-            <th scope="col">hr</th>
-            <th scope="col">Lu</th>
-            <th scope="col">Ma</th>
-            <th scope="col">Mi</th>
-            <th scope="col">Ju</th>
-            <th scope="col">Vi</th>
-            <th scope="col">Sa</th>
-            <th scope="col">Do</th>
-        </tr>
-        </thead>
-        <tbody id="tableBody">
-        <tr>
-            <th scope="row">0:00-3:00</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">3:00-6:00</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <div class="container vida">
-                    Dormir
-                </div>
-            </td>
-            <td></td>
-            <td>
-                <div class="container vida">
-                    Dormir
-                </div>
-            </td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">6:00-9:00</th>
-            <td></td>
-            <td>
-                <div class="container ocio">
-                    Jugar LoL
-                </div>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">9:00-12:00</th>
-            <td></td>
-            <td></td>
-            <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
-                </div>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">12:00-15:00</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
-                </div>
-            </td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">15:00-18:00</th>
-            <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
-                </div>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">18:00-21:00</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
-                </div>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th scope="row">21:00-0:00</th>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <div class="container deporte">
-                    Andar en Bicicleta
-                </div>
-            </td>
-        </tr>
-        </tbody>
-    </table>
-</div>
+    <br>
 
-<!--spacing-->
-<div class="container-fluid bg-transparent"><br></div>
 
-<!--Summary-->
-<div class="container" id="summary">
-    <h4>Resumen</h4>
-</div>
-<div class="container LPsection">
-    <div class="row">
-        <!--Agregar resumenes de la persona y amigos-->
-        <div class="col activity">Hola</div>
-        <div class="col activity">Hola</div>
-        <div class="col activity">Hola</div>
+    <!--Fixed to Bottom-->
+    <div class="container-fluid fixed-bottom pb-2">
+        <!--Add Activity Button-->
+        <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
+                class="material-icons">add</i></a>
+        <!--On Screen Clock-->
+        <a class="float-right rounded" id="onScreen-clock">
+            <h5 style="text-align: center;">00:13:21</h5>
+            <div class="container-fluid center">
+                <i class="material-icons medium icons-size">pause</i>
+                <i class="material-icons medium icons-size">stop</i>
+            </div>
+        </a>
+        <!--Faltan botones de inicio, pausa y termino-->
     </div>
-    <div class="row">
-        <div class="col activity">Hola</div>
-        <div class="col activity">Hola</div>
-        <div class="col activity">Hola</div>
-    </div>
-</div>
-<br>
 
 
-<!--Fixed to Bottom-->
-<div class="container-fluid fixed-bottom pb-2">
-    <!--Add Activity Button-->
-    <a class="btn-floating btn-large waves-effect waves-light float-left" id="button-add"><i
-            class="material-icons">add</i></a>
-    <!--On Screen Clock-->
-    <a class="float-right rounded-pill pl-3" id="onScreen-clock"><h5>00:13:21</h5></a>
-    <!--Faltan botones de inicio, pausa y termino-->
-</div>
-
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-</script>
-<script src="js/bootstrap.min.js"></script>
-<!-- Compiled and minified JavaScript -->
-<script src="js/materialize.min.js"></script>
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="js/materialize.min.js"></script>
 </body>
 
 </html>
